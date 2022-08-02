@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Baloo 2', cursive;
+    background: rgb(228, 143, 33);
+    
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(28, 27, 27);
+    color: aliceblue;
+    
+}
+.nav-tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.nav-links {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;    
+    padding: 0 15px;
+}
+
+.btn {
+
+    color:aliceblue;
+    background-color: rgb(18, 170, 196);
+    width: 100px;
+    height: 27px;
+    border: 3px solid black ;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+    margin-left: 100px;
+}
+/*-------------------------------------------*/
+.content {
+    
+    width: 500px;
+    margin: 17px auto;
+    position: absolute;
+    left:175px;
+    top:  55px;
+    
+    
+    
+   
+    
+}
+
+.init{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: -33px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+
+}
+
+.userperfil{
+    width: 120px;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-color: rgb(230, 221, 221);
+    padding: 5px;
+}
+.img {
+    background-color:#17a2b8;
+    height: 125px;
+    margin-bottom: 80px;
+}
+
+.icon {
+    height: 20px;
+}
+
+.link {
+    color: #333333;
+}
+/*-----------------------------------*/
+
+.cont_edu{
+    width: 500px;
+    margin: 50px auto;
+    position: absolute;
+    left:175px;
+    top:415px;
+   
+}
+
+.name_block{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.h3{
+    color: #fff;
+    background-color:#333333;
+    height: 43px;
+    margin-bottom: 11px;
+   
+
+}
+.cont_connection p{
+
+    margin-bottom: 3px;
+}
+
+/*-----------------------------------*/
+
+.Connections_requests{
+    width: 250px;
+    margin: 013px auto;
+    position: absolute;
+    right: 155px;
+    top: 55px ;
+
+   
+   
+
+}
+
+.name_block2{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+
+    
+}
+.h4{
+    color: #fff;
+    background-color:#333333;
+    height: 43px;
+    margin-bottom: 11px;
+    
+}
+
+/*------your Connections----------*/
+
+.container_your_connections{
+    width: 250px;
+    margin: 13px auto;
+    position: absolute;
+    right: 155px;
+    top:250px;
+    
+
+}
+.h5{
+    color: #fff;
+    background-color:#333333;
+    height: 43px;
+    margin-bottom: 11px;
+    
+    display: flex;
+    justify-items:center ;
+}
+
+.userperfilconnections {
+    border-radius: 50%;
+    width: 40px;
+    margin: 0px 20px;
+}
